@@ -1,0 +1,278 @@
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Simbert不能正常使用，除非你安装：bert4keras、tensorflow ，为了安装快捷，没有默认安装.... No module named 'bert4keras'
+Traceback (most recent call last):
+  File "load_dataset/load_data_cls.py", line 110, in <module>
+    train_val_df  = read_process_cls_dat(config.Trpath)
+  File "load_dataset/load_data_cls.py", line 67, in read_process_cls_dat
+    with open(Readpath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/root/autodl-tmp/data/train_data/train_cls-sample.txt'
+Simbert不能正常使用，除非你安装：bert4keras、tensorflow ，为了安装快捷，没有默认安装.... No module named 'bert4keras'
+Traceback (most recent call last):
+  File "train/predict.py", line 110, in <module>
+    main()
+  File "train/predict.py", line 100, in main
+    test_df = pd.read_json(config.datPath + 'test_cls.json') 
+  File "/root/miniconda3/lib/python3.8/site-packages/pandas/io/json/_json.py", line 760, in read_json
+    json_reader = JsonReader(
+  File "/root/miniconda3/lib/python3.8/site-packages/pandas/io/json/_json.py", line 861, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+  File "/root/miniconda3/lib/python3.8/site-packages/pandas/io/json/_json.py", line 917, in _get_data_from_filepath
+    raise FileNotFoundError(f"File {filepath_or_buffer} does not exist")
+FileNotFoundError: File /root/autodl-tmp/data/train_data/test_cls.json does not exist
+Simbert不能正常使用，除非你安装：bert4keras、tensorflow ，为了安装快捷，没有默认安装.... No module named 'bert4keras'
+Traceback (most recent call last):
+  File "train/train_eval.py", line 161, in <module>
+    main()
+  File "train/train_eval.py", line 144, in main
+    train_val_df  = read_process_cls_dat(config.Trpath)
+  File "/root/autodl-tmp/BertClassNews/load_dataset/load_data_cls.py", line 67, in read_process_cls_dat
+    with open(Readpath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/root/autodl-tmp/data/train_data/train_cls-sample.txt'
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Simbert不能正常使用，除非你安装：bert4keras、tensorflow ，为了安装快捷，没有默认安装.... No module named 'bert4keras'
+Traceback (most recent call last):
+  File "train/predict.py", line 110, in <module>
+    main()
+  File "train/predict.py", line 102, in main
+    test_dataloader = generateDataloader(test_df['content'].tolist(), test_df['tag'].tolist(), config)
+NameError: name 'generateDataloader' is not defined
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Simbert不能正常使用，除非你安装：bert4keras、tensorflow ，为了安装快捷，没有默认安装.... No module named 'bert4keras'
+Traceback (most recent call last):
+  File "train/predict.py", line 110, in <module>
+    main()
+  File "train/predict.py", line 102, in main
+    test_dataloader = generateDataloader(test_df['content'].tolist(), test_df['tag'].tolist(), config)
+NameError: name 'generateDataloader' is not defined
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 668, in format
+    record.message = record.getMessage()
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 373, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "train/train_eval.py", line 161, in <module>
+    main()
+  File "train/train_eval.py", line 148, in main
+    log.logger.info (train_df.shape, test_df.shape, val_df.shape)
+Message: (32546, 3)
+Arguments: ((4532, 3), (8137, 3))
+--- Logging error ---
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 668, in format
+    record.message = record.getMessage()
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 373, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "train/train_eval.py", line 161, in <module>
+    main()
+  File "train/train_eval.py", line 148, in main
+    log.logger.info (train_df.shape, test_df.shape, val_df.shape)
+Message: (32546, 3)
+Arguments: ((4532, 3), (8137, 3))
+2023-10-08 04:31:35,758 - train/train_eval.py[line:153] - INFO: DataLoader loading success
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 668, in format
+    record.message = record.getMessage()
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 373, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "load_dataset/load_data_cls.py", line 113, in <module>
+    log.logger.info (train_df.shape, test_df.shape, val_df.shape)
+Message: (32546, 3)
+Arguments: ((4532, 3), (8137, 3))
+--- Logging error ---
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 668, in format
+    record.message = record.getMessage()
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 373, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "load_dataset/load_data_cls.py", line 113, in <module>
+    log.logger.info (train_df.shape, test_df.shape, val_df.shape)
+Message: (32546, 3)
+Arguments: ((4532, 3), (8137, 3))
+2023-10-08 04:31:38,023 - load_dataset/load_data_cls.py[line:118] - INFO: DataLoader loading success
+Simbert不能正常使用，除非你安装：bert4keras、tensorflow ，为了安装快捷，没有默认安装.... No module named 'bert4keras'
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 668, in format
+    record.message = record.getMessage()
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 373, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "load_dataset/load_data_cls.py", line 113, in <module>
+    log.logger.info (train_df.shape, test_df.shape, val_df.shape)
+Message: (32546, 3)
+Arguments: ((4532, 3), (8137, 3))
+--- Logging error ---
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 668, in format
+    record.message = record.getMessage()
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 373, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "load_dataset/load_data_cls.py", line 113, in <module>
+    log.logger.info (train_df.shape, test_df.shape, val_df.shape)
+Message: (32546, 3)
+Arguments: ((4532, 3), (8137, 3))
+2023-10-08 04:32:14,035 - load_dataset/load_data_cls.py[line:118] - INFO: DataLoader loading success
+Simbert不能正常使用，除非你安装：bert4keras、tensorflow ，为了安装快捷，没有默认安装.... No module named 'bert4keras'
+--- Logging error ---
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 668, in format
+    record.message = record.getMessage()
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 373, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "train/train_eval.py", line 161, in <module>
+    main()
+  File "train/train_eval.py", line 148, in main
+    log.logger.info (train_df.shape, test_df.shape, val_df.shape)
+Message: (32546, 3)
+Arguments: ((4532, 3), (8137, 3))
+--- Logging error ---
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 668, in format
+    record.message = record.getMessage()
+  File "/root/miniconda3/lib/python3.8/logging/__init__.py", line 373, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "train/train_eval.py", line 161, in <module>
+    main()
+  File "train/train_eval.py", line 148, in main
+    log.logger.info (train_df.shape, test_df.shape, val_df.shape)
+Message: (32546, 3)
+Arguments: ((4532, 3), (8137, 3))
+2023-10-08 04:32:17,351 - train/train_eval.py[line:153] - INFO: DataLoader loading success
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-chinese and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Simbert不能正常使用，除非你安装：bert4keras、tensorflow ，为了安装快捷，没有默认安装.... No module named 'bert4keras'
+Traceback (most recent call last):
+  File "train/train_eval.py", line 161, in <module>
+    main()
+  File "train/train_eval.py", line 157, in main
+    model_train(model, train_dataloader, val_dataloader, config2)
+  File "train/train_eval.py", line 115, in model_train
+    outputs = model(input_ids=input_ids, attention_mask=attention_mask,labels=labels)
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.8/site-packages/transformers/models/bert/modeling_bert.py", line 1562, in forward
+    outputs = self.bert(
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.8/site-packages/transformers/models/bert/modeling_bert.py", line 1022, in forward
+    encoder_outputs = self.encoder(
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.8/site-packages/transformers/models/bert/modeling_bert.py", line 612, in forward
+    layer_outputs = layer_module(
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.8/site-packages/transformers/models/bert/modeling_bert.py", line 497, in forward
+    self_attention_outputs = self.attention(
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.8/site-packages/transformers/models/bert/modeling_bert.py", line 427, in forward
+    self_outputs = self.self(
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.8/site-packages/transformers/models/bert/modeling_bert.py", line 367, in forward
+    context_layer = context_layer.permute(0, 2, 1, 3).contiguous()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 24.00 MiB (GPU 0; 23.69 GiB total capacity; 10.88 GiB already allocated; 17.81 MiB free; 10.98 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Simbert不能正常使用，除非你安装：bert4keras、tensorflow ，为了安装快捷，没有默认安装.... No module named 'bert4keras'
+Epoch 1, batch 300, so far takes 104.39336204528809
+Loss: 207.6119683124125
+Epoch 1, batch 600, so far takes 208.92115116119385
+Loss: 328.5911887399852
+Epoch 1, batch 900, so far takes 313.5479791164398
+Loss: 441.8426352310926
+Epoch 1, batch 1200, so far takes 418.23539686203003
+Loss: 550.2324047014117
+Epoch 1, batch 1500, so far takes 523.0471060276031
+Loss: 647.4969752151519
+Epoch 1, batch 1800, so far takes 627.7669641971588
+Loss: 745.507843291387
+tensor(0.5000, device='cuda:0')
+val acc: 0.9064765884232519
+Epoch 1 complete, so far takes 709.5808138847351
